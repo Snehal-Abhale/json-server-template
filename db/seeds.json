@@ -1,444 +1,187 @@
 {
-  "example": [
+  "recommended": [
     {
       "id": 1,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "city": "New York",
+      "image": "https://cdn-imgix.headout.com/media/images/fb6d850884a7fdf3e0d76f11c5debe56-846-new-york-statue-of-liberty-island---ellis-island-tour-with-audioguide-04.jpg?w=490.5&h=306&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "Statue of Liberty Tour",
+      "price": 10,
+      "ratings": 4.1
+    },
+    {
+      "city": "Rome",
+      "image": "https://cdn-imgix.headout.com/tour/30720/TOUR-IMAGE/b96ec931-86de-4df0-b4f2-3f38ef5f7757-castel-sant-angelo-rome-italy-1650.jpg?w=490.5&h=306&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "Tour of Rome's Ghosts and Mysteries",
+      "price": 50,
+      "ratings": 4.9,
+      "id": 2
+    },
+    {
+      "city": "Edinburgh",
+      "image": "https://cdn-imgix.headout.com/media/images/f44357c3f4307f2561d3f4d36f85fae2-Edinburgh%20Castle%20card.jpg?w=270&h=360&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "Edinburh Castle",
+      "price": 50,
+      "ratings": 4.7,
+      "id": 3
+    }, 
+    {
+      "city": "Las Vegas",
+      "image": "https://cdn-imgix.headout.com/media/images/e2758f231d02090d1f9f3ab91d703f84-1089-las-vegas-high-roller-01.jpg?w=490.5&h=306&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "High Roller At the LINQ",
+      "price": 100,
+      "ratings": 4.3,
+      "id": 4
+    }
+  ],
+  "outdoors": [
+    {
+      "id": 1,
+      "city": "New York City",
+      "image": "https://cdn-imgix.headout.com/media/images/fb6d850884a7fdf3e0d76f11c5debe56-846-new-york-statue-of-liberty-island---ellis-island-tour-with-audioguide-04.jpg?w=490.5&h=306&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "Statue of Liberty Tour",
+      "price": 100,
+      "ratings": 4.5
     },
     {
       "id": 2,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "city": "New York City",
+      "image": "https://cdn-imgix.headout.com/tour/29734/TOUR-IMAGE/5a39a71c-1a5a-4e6b-82a0-2a32b164f085-15908-new-york-central-park-bike-tour-01-3-.jpg?w=490.5&h=306&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "Central Park Bike Tour",
+      "price": 100,
+      "ratings": 4.4
     },
     {
       "id": 3,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "city": "New York City",
+      "image": "https://cdn-imgix.headout.com/tour/29743/TOUR-IMAGE/e8a835af-0b6f-4e43-baca-e2f57075bad9-15912-new-york-brooklyn-bridge-bike-rentals-01-1-.jpg?w=490.5&h=306&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "Brooklyn Bridge Bike Tour",
+      "price": 10,
+      "ratings": 4.5
     },
     {
-      "id": 4,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "city": "Las Vegas",
+      "image": "https://cdn-imgix.headout.com/media/images/e2758f231d02090d1f9f3ab91d703f84-1089-las-vegas-high-roller-01.jpg?w=490.5&h=306&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "High Roller At the LINQ",
+      "price": 100,
+      "ratings": 4.3,
+      "id": 4
     },
     {
-      "id": 5,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "city": "New York City",
+      "image": "https://cdn-imgix.headout.com/media/images/5dc9723916e66d51f8f35b8df27905c7-Cardempirestate.jpg?w=270&h=360&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "Empire State Building",
+      "price": 43,
+      "ratings": 4.3,
+      "id": 5
     },
     {
-      "id": 6,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "city": "Rome",
+      "image": "https://cdn-imgix.headout.com/tour/30720/TOUR-IMAGE/b96ec931-86de-4df0-b4f2-3f38ef5f7757-castel-sant-angelo-rome-italy-1650.jpg?w=490.5&h=306&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "Tour of Rome's Ghosts and Mysteries",
+      "price": 50,
+      "ratings": 4.9,
+      "id": 6
     },
     {
-      "id": 7,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "city": "Edinburgh",
+      "image": "https://cdn-imgix.headout.com/media/images/375a33a82bd8bb00480a20d9c4d7c4df-Mohit-22332RoundTrip.jpg?w=490.5&h=306&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "Edinburgh Trams Ticket",
+      "price": 50,
+      "ratings": 4.3,
+      "id": 7
     },
     {
-      "id": 8,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "city": "Edinburgh",
+      "image": "https://cdn-imgix.headout.com/media/images/f44357c3f4307f2561d3f4d36f85fae2-Edinburgh%20Castle%20card.jpg?w=270&h=360&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "Edinburh Castle",
+      "price": 50,
+      "ratings": 4.7,
+      "id": 8
+    }
+    
+  ],
+  "museums": [
+    {
+      "city": "London",
+      "image": "https://cdn-imgix.headout.com/media/images/788a1a3118f9937ab6348bdf4d963c22-1364-london-london--attractions_royal-palaces-in-london_buckingham-palace-02.jpg?w=270&h=360&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "Buckingham Palace Tour",
+      "price": 100,
+      "ratings": 4.7,
+      "id": 4
     },
     {
-      "id": 9,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "city": "London",
+      "image": "https://cdn-imgix.headout.com/tour/17346/TOUR-IMAGE/1c15e229-df4d-4767-828d-be2249e91cce-london-harry-potter-great-hall.jpeg?w=490.5&h=306&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "Warner Bros Studio Harry potter",
+      "price": 50,
+      "ratings": 4.9,
+      "id": 5
     },
     {
-      "id": 10,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "city": "Paris",
+      "image": "https://cdn-imgix.headout.com/tour/14426/TOUR-IMAGE/57db0565-3ce4-4f2e-a499-c57d09c2b558-7889-paris-priority-access-tickets-to-picasso-museum-02.jpg?w=490.5&h=306&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "Piccaso Museum Paris",
+      "price": 50,
+      "ratings": 4.7,
+      "id": 6
     },
     {
-      "id": 11,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "city": "New York City",
+      "image": "https://cdn-imgix.headout.com/media/images/6058a59067921e10ea22e77bf7cad2b6-3041-new-york-01-new-york-%7C-moma-02.jpg?w=270&h=360&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "Museum of Modern Art",
+      "price": 30,
+      "ratings": 4.1,
+      "id": 7
     },
     {
-      "id": 12,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "city": "New York City",
+      "image": "https://cdn-imgix.headout.com/media/images/4cbe1cf24850c7e3d3bb349b08dc79da-236-new-york-04-new-york-%7C-nyc-101_9%3A11-memorial-%26-ground-zero-museums-02.jpg?w=270&h=360&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "9/11 Museum",
+      "price": 33,
+      "ratings": 4.5,
+      "id": 8
+    }
+  ],
+  "entertainment": [
+    {
+      "city": "New York City",
+      "image": "https://cdn-imgix.headout.com/collection-card-image/3859/image/553b0a2a4a182ab5c0d317407cdbd94a-Broadway-2.jpg?w=270&h=360&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "Disney On Broadway Shows",
+      "price": 45,
+      "ratings": 4.3,
+      "id": 4
     },
     {
-      "id": 13,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "city": "New York City",
+      "image": "https://cdn-imgix.headout.com/media/images/2857f4851fa092fc7e084cb8e7e79dcb-24533-new-york-harry-potter-and-the-cursed-child-01.jpg?w=490.5&h=306&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "Harry Potter and Cursed Child",
+      "price": 50,
+      "ratings": 4.7,
+      "id": 5
     },
     {
-      "id": 14,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "city": "New York City",
+      "image": "https://cdn-imgix.headout.com/media/images/e5cc3e60768a01e46c528e7283dbc7d2-17676-new-york-a-beautiful-noise-the-neil-diamond-musical-01.jpg?w=490.5&h=306&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "A Beautiful noise: The Neil Diamond Musical",
+      "price": 50,
+      "ratings": 4.3,
+      "id": 6
     },
     {
-      "id": 15,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "city": "New York City",
+      "image": "https://cdn-imgix.headout.com/media/images/462247cdb60cc3222ff6f0c26e06dce1-1.jpg?w=490.5&h=306&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "The Lion King",
+      "price": 50,
+      "ratings": 4.7,
+      "id": 7
     },
     {
-      "id": 16,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 17,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 18,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 19,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 20,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 21,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 22,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 23,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 24,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 25,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 26,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 27,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 28,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 29,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 30,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 31,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 32,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 33,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 34,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 35,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 36,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 37,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 38,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 39,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 40,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "city": "New York City",
+      "image": "https://cdn-imgix.headout.com/media/images/ee1df32901688d65a39792b6818525b7-5838-new-york-the-play-that-goes-wrong-01.jpg?w=490.5&h=306&auto=compress%2Cformat&crop=faces&fit=min",
+      "name": "The Play That Goes Wrong",
+      "price": 50,
+      "ratings": 4.3,
+      "id": 8
     }
   ]
 }
